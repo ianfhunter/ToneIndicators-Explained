@@ -1,16 +1,4 @@
-
-// chrome.action.onClicked.addListener((tab) => {
-//     chrome.scripting.executeScript({
-//         target: {tabId: tab.id},
-//         files: ["jquery-3.6.3.slim.min.js"]
-//     }, function(){
-//         chrome.scripting.executeScript({
-//             target: { tabId: tab.id },
-//             files: ["explain.js"]
-//         });
-//     })
-// });
-
+// Create pop-up if icon clicked
 chrome.action.onClicked.addListener((tab) => {
     chrome.windows.create({
       focused: true,
@@ -22,14 +10,4 @@ chrome.action.onClicked.addListener((tab) => {
       left: 0
     },
     () => {})
-    // chrome.scripting.executeScript({
-    //     target: {tabId: tab.id},
-    //     files: ["jquery-3.6.3.slim.min.js"]
-    // }, function(){
-    //     console.log("Clicked!")
-    //     // caches.setPopup({
-    //     //     tabId: tabId,
-    //     //     popup: "index.html"
-    //     // })
-    // })
-  })
+})
