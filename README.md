@@ -1,4 +1,4 @@
-# ToneIndicatorExplainations
+# ToneIndicators Explained
 
 ## What is it?
 A chrome extension that allows you to quickly explain Tone Indicators without leaving your webpage.
