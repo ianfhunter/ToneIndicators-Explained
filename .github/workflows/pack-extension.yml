@@ -1,5 +1,5 @@
 name: pack-extension
-on: workflow-dispatch
+on: workflow_dispatch
 jobs:
   pack:
     runs-on: ubuntu-latest
