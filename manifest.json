@@ -1,0 +1,31 @@
+{
+    "name": "Tone Indicators Explained",
+    "version": "1.0.0",
+    "description": "get explainations of tone indicators without leaving your page",
+    "manifest_version": 3,
+    "author": "Ian Frederick Vigogne Goodbody Hunter",
+    "icons":{
+      "16": "tone_logo.png",
+      "32": "tone_logo.png",
+      "48": "tone_logo.png",
+      "128": "tone_logo.png"
+    },
+    "action":{
+        "default_title": "Tone Indicators Explained"
+    },
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "css": ["background.css"],
+        "js": ["jquery-3.6.3.slim.min.js", "explain.js"]
+      }
+    ],
+    "permissions": [
+      "activeTab",
+      "scripting"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "optional_host_permissions": ["<all_urls>"]
+}
