@@ -37,6 +37,7 @@ indicator_and_meanings = {
     "/m": "metaphorically",
     "/li": "literally",
     "/hyp": "hyperbole",
+    "/ex": "exaggeration",
     "/f": "fake",
     "/th": "threat",
     "/cb": "clickbait",
@@ -44,6 +45,9 @@ indicator_and_meanings = {
     "/rt": "rhetorical",
     "/pa": "passive-aggressive",
     "/npa": "not passive-aggressive",
+    "/nf": "not forced",
+    "/nbr": "not being rude",
+    "/q": "quote",
 }
 
 function addClassAndTitleToSelection(sel, cls, title){
