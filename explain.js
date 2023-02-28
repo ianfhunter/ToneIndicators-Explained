@@ -42,6 +42,8 @@ indicator_and_meanings = {
     "/cb": "clickbait",
     "/rh": "rhetorical",
     "/rt": "rhetorical",
+    "/pa": "passive-aggressive",
+    "/npa": "not passive-aggressive",
 }
 
 function addClassAndTitleToSelection(sel, cls, title){
