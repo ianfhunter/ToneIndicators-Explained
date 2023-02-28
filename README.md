@@ -1,9 +1,13 @@
 # ToneIndicators Explained
 
-## What is it?
-A chrome extension that allows you to quickly explain Tone Indicators without leaving your webpage.
+## What even are Tone Indicators?
 
-Double-Click to explain!
+I recommend reading up on them [here](https://toneindicators.carrd.co/#introduction)! They're an easy way to make your messages a lot more inclusive and less easily misinterpreted!
+
+## What is all this code?
+I've created a chrome extension that allows you to quickly explain Tone Indicators without leaving your webpage.
+
+When it's installed, all you have to do is Double-Click a tone indicator to get an explaination!
 
 ## How do I get it?
 
