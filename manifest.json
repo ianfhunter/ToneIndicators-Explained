@@ -1,6 +1,6 @@
 {
     "name": "Tone Indicators Explained",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Double-Click to explaina tone indicators without leaving your webpage",
     "manifest_version": 3,
     "author": "Ian Frederick Vigogne Goodbody Hunter",
@@ -21,8 +21,7 @@
       }
     ],
     "permissions": [
-      "activeTab",
-      "scripting"
+      "activeTab"
     ],
     "background": {
       "service_worker": "background.js"
