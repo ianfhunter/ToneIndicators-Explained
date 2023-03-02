@@ -11,7 +11,7 @@ When it's installed, all you have to do is Double-Click a tone indicator to get 
 
 ## How do I get it?
 
-Right now, it's not on the Chrome store, we're working on that.
+It's on the [Chrome store](https://chrome.google.com/webstore/detail/tone-indicators-explained/oahffmgbcaeeadnhlnhpaifemijpfddn)!
 
 If you want - you can install it from a [.crx file in the latest release ](https://github.com/ianfhunter/ToneIndicators-Explained/releases)
 
